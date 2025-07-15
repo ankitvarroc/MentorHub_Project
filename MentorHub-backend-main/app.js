@@ -14,7 +14,7 @@ const { notFound, errorHandler } = require("./middleware/error");
 // Middleware to enable CORS (Cross-Origin Resource Sharing)
 app.use(cors({
   origin:
-    'mentor-hub-project.vercel.app',
+    "mentor-hub-project.vercel.app",
   credentials: true
 }));
 
